@@ -1,0 +1,13 @@
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:root@localhost:5432/postgres"
+}
+
+generator py {
+  provider = "prisma-client-py"
+}
+
+model User {
+  id   String @id @default(cuid())
+  name String
+}

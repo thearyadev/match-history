@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "match-history"
+version = "0.1.0"
+description = ""
+authors = ["Aryan Kothariset -g allow-passthrough on <87589047+thearyadev@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+paddlepaddle = "3.0.0b2"
+paddleocr = "^2.9.1"
+setuptools = "^75.5.0"
+robyn = "^0.64.1"
+prisma = "^0.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
